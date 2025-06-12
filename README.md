@@ -1,19 +1,21 @@
-# 🎈 Blank app template
+# Finlyzer Alpha
 
-A simple Streamlit app template for you to modify!
+**Finlyzer Alpha** is a Streamlit-based tool that allows users to upload financial reports (PDF format), extract basic financial information, and view a summarized report.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- Upload financial documents in PDF
+- Extract and view key financial metrics
+- Download CSV summaries
+- Easy-to-use Streamlit interface
 
-1. Install the requirements
+## How to Run
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-2. Run the app
+## Deployment
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+You can deploy this app on [Streamlit Cloud](https://streamlit.io/cloud) by connecting your GitHub repository.
